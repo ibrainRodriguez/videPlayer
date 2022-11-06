@@ -1,0 +1,30 @@
+.boton {
+    inline-size: 32px;
+    block-size: 32px;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.boton:active {
+    transform: scale(.9);
+}
+
+#btnPlay {
+    background-image: url('../images/play.svg');
+}
+
+#btnPause {
+    background-image: url('../images/pause.svg');
+}
+
+
+#btnAvanzar {
+    background-image: url('../images/+10.svg');
+}
+
+#btnRetroceder {
+    background-image: url('../images/-10.svg');
+}
